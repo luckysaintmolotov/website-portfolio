@@ -15,3 +15,78 @@
     font-weight: 300;
     font-style: normal;
 }
+
+body{
+    margin:0;
+    padding:0;
+    background-image: url("https://images.unsplash.com/photo-1556280725-d0a1d82c811b?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: 100%;
+    background-color: #1d3557;
+    background-attachment: fixed;
+}
+
+#full-banner{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+font-size: 100px;
+font-family: "Grand Hotel";
+background-color: #00000000;
+width: 100%;
+margin-bottom: 2.5em;
+color: #e76f51;
+text-shadow: 12px 2px #142a33 ;
+align-items: center;
+
+}
+a{
+    text-shadow: 2px 2px #142a33 ;
+    font-family: "Pompiere";
+    text-decoration: none;
+    color: #f4a261;
+
+}
+#header-tagline{
+    text-shadow: 2px 2px #142a33 ;
+    align-self: center;
+    font-size: 85px;
+    font-family: "Pompiere";
+    color: #f4a261;
+
+}
+
+section{
+    background-color: #ffffff28;
+}
+article{
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-family: "Grand Hotel";
+    font-size: 45px;
+    color: #f4a261;
+    text-shadow: 5px 5px #264653;
+    border: 10px solid #f4a36194;
+    background-color:#1b130c6b;
+;
+
+}
+article p {
+    font-family: "Pompiere";
+    font-size: 35px;
+    font-weight: 700;
+    color: #f4a261;
+    text-shadow:2px 2px #02394e;
+;
+    margin: 2.5em;
+    padding: 1.5em;
+}
+footer{
+    text-align: center;
+    position: static;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
